@@ -16,7 +16,7 @@ module.exports = (env) => {
       devtool: env.DEV_TOOL,
       entry: './src/nanno.js',
       output: {
-        path: path.resolve(__dirname, 'site/nanno-js/dist/umd/'),
+        path: path.resolve(__dirname, 'docs/nanno-js/dist/umd/'),
         filename: 'nanno.js',
         library: 'nanno',
         libraryTarget: 'umd',
@@ -43,7 +43,7 @@ module.exports = (env) => {
       devtool: env.DEV_TOOL,
       entry: './src/nanno-standalone.js',
       output: {
-        path: path.resolve(__dirname, 'site/nanno-js/dist/window/'),
+        path: path.resolve(__dirname, 'docs/nanno-js/dist/window/'),
         filename: 'nanno.js'
       },
       module: {
@@ -63,7 +63,7 @@ module.exports = (env) => {
       }
     };
   } else if(target === 'site') {
-    const BASE_PATH = `site/nanno-js/dist/site/`;
+    const BASE_PATH = `docs/nanno-js/dist/site/`;
 
     return {
       mode: userEnv,

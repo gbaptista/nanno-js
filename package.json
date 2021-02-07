@@ -16,9 +16,9 @@
     "type": "git"
   },
   "files": [
-    "site/nanno-js/dist/umd/nanno.js"
+    "build/umd/nanno.js"
   ],
-  "browser": "site/nanno-js/dist/umd/nanno.js",
+  "browser": "build/umd/nanno.js",
   "scripts": {
     "test": "ava",
     "lint": "eslint --ext .js src --fix"

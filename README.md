@@ -108,7 +108,7 @@ bundle exec guard
 yarn run webpack --env NODE_ENV=development
 yarn run webpack --env NODE_ENV=production
 
-python -m http.server 8000 --directory docs
+python server.py
 
 yarn test
 yarn lint

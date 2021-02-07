@@ -20,7 +20,7 @@ Powered by [PixiJS](https://www.pixijs.com/), [GSAP](https://greensock.com/gsap/
 ### Online Playground
 Try the [Online Playground](https://gbaptista.github.io/nanno-js/playground.html): You can check out several examples and render your source code right away.
 
-![nanno Language Playground](https://raw.githubusercontent.com/gbaptista/nanno-js/main/docs/images/screen.png "nanno Language Playground")
+[![nanno playground](https://raw.githubusercontent.com/gbaptista/nanno-js/main/docs/images/screen.png)](https://gbaptista.github.io/nanno-js/playground.html)
 
 ### JavaScript imports usage
 

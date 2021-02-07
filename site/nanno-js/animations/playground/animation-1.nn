@@ -1,0 +1,47 @@
+--------
+  . . .
+. a
+.
+.
+--------
+  . . .
+.
+.   a
+.
+--------
+  . . .
+.
+.
+.     a
+--------
+  . . .
+.
+.
+. b   
+--------
+  . . .
+.
+.   b
+.
+--------
+  . . .
+.     b
+.
+.
+--------
+
+^
+
+#stage
+  background-color black
+  width 600
+  height 400
+  show-grid? yes
+
+#player
+  repeat? yes
+  rewind? yes
+
+a b
+  background-color white
+  color black

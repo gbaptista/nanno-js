@@ -1,0 +1,29 @@
+movie
+
+#stage
+  rows 10
+  columns 10
+  width 600
+  height 400
+  background-color black
+
+#player
+  repeat? yes
+  rewind? yes
+
+a
+  text-color white
+  flow [
+    > 1 2/2
+      background-color blue
+      text-content A
+
+    > 2 5/5
+      background-color red
+      text-content B
+
+    > 3 9/9
+      background-color yellow
+      text-content C
+      text-color black
+  ]

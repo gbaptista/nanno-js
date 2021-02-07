@@ -1,0 +1,44 @@
+movie
+
+#stage
+  width 600
+  height 400
+  rows 5 columns 5
+  show-grid? no
+
+#player
+  repeat? yes rewind? yes
+
+scene
+
+welcome
+  text-content "Welcome!"
+  text-color white
+  text-font FrederickaTheGreat
+  flow [ > 3/2 motion show ]
+
+a
+  text-content A
+  position 1/1
+  motion show
+
+scene
+
+hello
+  text-content "Hello, World!"
+  text-color white
+  text-font Pacifico
+  flow [ > 3/4 motion show ]
+
+b
+  text-content B
+  position 5/5
+  motion show
+
+scene
+
+a
+  flow [ > 5/1 > 5/5 > 1/5 > 1/1 ]
+
+b
+  flow [ > 1/5 > 1/1 > 5/1 > 5/5 ]

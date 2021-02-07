@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Pacifico;
+  src: url("/nanno-js/vendor/fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+  font-family: FrederickaTheGreat;
+  src: url("/nanno-js/vendor/fonts/FrederickatheGreat-Regular.ttf");
+}
+
+@font-face {
+  font-family: DancingScript;
+  src: url("/nanno-js/vendor/fonts/DancingScript-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: RobotoMono;
+  src: url("/nanno-js/vendor/fonts/RobotoMono-VariableFont_wght.ttf");
+}
+
+html, body {
+  /*font-family: RobotoMono;*/
+  background-color: #171717;
+  color: #fafafa;
+}
+
+p {
+  font-size: 1.4em;
+  padding: 0.6em;
+  text-align: left;
+}
+
+.breathe {
+  padding: 2em;
+}
+
+a {
+  color: #82AAFF;
+}
+
+code {
+  color: #C792EA;
+  font-family: RobotoMono, Roboto Mono, monospace;
+}
+
+h3 {
+  font-family: DancingScript;
+  font-weight: normal;
+}
+
+code[class*=language-],
+pre[class*=language-] {
+  font-size: 1.10em;
+}
+
+.demo {
+  text-align: center;
+}
+
+.demo, .source-example {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.source-example {
+  padding-left: 80px;
+}
+
+.animation-container {
+  text-align: center;
+}
+
+.debug {
+  padding: 4em;
+  text-align: center;
+  font-family: RobotoMono;
+  font-size: 1.2em;
+  color: #666;
+}

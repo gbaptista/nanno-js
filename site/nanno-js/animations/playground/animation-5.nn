@@ -1,0 +1,15 @@
+movie
+
+#player
+  repeat? yes
+  rewind? yes
+
+a
+  flow [
+    > 1/1 motion show
+    > 5/1 > 5/5 > 1/5
+    > 1/1 motion hide
+  ]
+
+b
+  flow [ > 5/5 > 1/5 > 1/1 > 5/1 > 5/5 ]

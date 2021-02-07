@@ -1,0 +1,60 @@
+{
+  "name": "nanno",
+  "version": "0.0.1",
+  "keywords": [
+    "animation",
+    "motion",
+    "effects",
+    "canvas",
+    "webgl"
+  ],
+  "homepage": "https://gbaptista.github.io/nanno-js/",
+  "bugs": "https://github.com/gbaptista/nanno-js/issues",
+  "author": "gbaptista (https://github.com/gbaptista)",
+  "repository": {
+    "url": "https://github.com/gbaptista/nanno-js",
+    "type": "git"
+  },
+  "files": [
+    "site/nanno-js/dist/umd/nanno.js"
+  ],
+  "browser": "site/nanno-js/dist/umd/nanno.js",
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint --ext .js src --fix"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@ava/babel": "^1.0.1",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "ava": "^3.15.0",
+    "babel-loader": "^8.2.2",
+    "babel-register": "^6.26.0",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-ava": "^11.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "file-loader": "^6.2.0",
+    "fontfaceobserver": "^2.1.0",
+    "gifski": "^1.3.1",
+    "gsap": "^3.6.0",
+    "monaco-editor": "^0.22.3",
+    "monaco-editor-webpack-plugin": "^3.0.0",
+    "pixi.js": "^5.3.7",
+    "pixi.js-legacy": "^5.3.7",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0"
+  },
+  "ava": {
+    "babel": {
+      "compileAsTests": [
+        "src/*",
+        "src/**"
+      ]
+    }
+  },
+  "dependencies": {}
+}

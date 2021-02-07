@@ -1,0 +1,45 @@
+------------
+  . . . . .
+. a
+.
+.     
+.
+.
+------------
+.         a
+.
+.        
+.
+.         
+------------
+.         
+.
+.        
+.
+.         a
+------------
+.         
+.
+.        
+.
+. a        
+------------
+. a
+.
+.     
+.
+.
+------------
+
+movie
+
+#stage
+  background-color black
+  width 600 height 400
+  show-grid? no
+
+#player
+  repeat? yes
+
+*
+  background-color white

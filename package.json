@@ -8,7 +8,8 @@
     "canvas",
     "webgl"
   ],
-  "homepage": "https://gbaptista.github.io/nanno-js/index.html",
+  "homepage": "https://gbaptista.github.io/nanno-js/",
+  "description": "A JavaScript implementation of the nanno language: Create beautiful animations through canvas and WebGL with a simple language.",
   "bugs": "https://github.com/gbaptista/nanno-js/issues",
   "author": "gbaptista (https://github.com/gbaptista)",
   "repository": {
@@ -16,9 +17,10 @@
     "type": "git"
   },
   "files": [
-    "build/umd/nanno.js"
+    "dist/nanno.js",
+    "dist/nanno-standalone.js"
   ],
-  "browser": "build/umd/nanno.js",
+  "browser": "dist/nanno.js",
   "scripts": {
     "test": "ava",
     "lint": "eslint --ext .js src --fix"

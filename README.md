@@ -12,6 +12,7 @@ Powered by [PixiJS](https://www.pixijs.com/), [GSAP](https://greensock.com/gsap/
   - [Online Playground](#online-playground)
   - [JavaScript imports usage](#javascript-imports-usage)
   - [JavaScript standalone usage](#javascript-standalone-usage)
+  - [CDN](#cdn)
 - [Development](#development)
 
 ## Getting Started
@@ -66,6 +67,8 @@ nanno.renderFile(
 
 Check the [demonstration](https://gbaptista.github.io/nanno-js/demo-standalone.html).
 
+- [nanno-standalone.js](https://cdn.jsdelivr.net/npm/nanno@0.0.1/dist/nanno-standalone.js)
+
 _HTML:_
 ```html
 <div id="animation-container"></div>
@@ -92,6 +95,10 @@ nanno.renderFile(
   document.getElementById('animation-container'),
 );
 ```
+
+### CDN
+
+- [https://cdn.jsdelivr.net/npm/nanno@0.0.1/dist/nanno-standalone.js](https://cdn.jsdelivr.net/npm/nanno@0.0.1/dist/nanno-standalone.js)
 
 ## Development
 

@@ -73,13 +73,13 @@ _HTML:_
 ```html
 <div id="animation-container"></div>
 
-<script src="pixi.js/5.1.3/pixi.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.3/pixi.min.js"></script>
 
-<script src="gsap/3.6.0/gsap.min.js"></script>
-<script src="gsap/3.6.0/PixiPlugin.min.js"></script>
-<script src="fontfaceobserver.standalone.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/PixiPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fontfaceobserver/2.1.0/fontfaceobserver.standalone.js"></script>
 
-<script src="nanno-standalone.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/nanno@0.0.1/dist/nanno-standalone.js"></script>
 ```
 
 _JavaScript_
